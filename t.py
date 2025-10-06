@@ -7,3 +7,6 @@ for i in range(11, 10):
 PI=322.00
 
 print(PI)
+from platform import processor
+
+print(processor())
