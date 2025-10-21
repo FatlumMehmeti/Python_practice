@@ -397,9 +397,6 @@ def rps_play(user_choice):
     else:
         return f"Computer wins ({comp} beats {user})"
 
-#Write a function that returns a list of all palindromic numbers between 1 and 1000.
-# (Implemented above as palindromic_numbers)
-
 #Write a function that uses a lambda to sort a list of dictionaries by a specific key.
 def sort_dicts_by_key(list_of_dicts, key):
     return sorted(list_of_dicts, key=lambda d: d.get(key))
@@ -480,12 +477,6 @@ def sum_duplicates(nums):
         if v > 1:
             total += k * v
     return total
-
-#Write a function that returns the number of unique words in a given text.
-# (Implemented above as unique_word_count)
-
-#Write a function that returns the longest word from a sentence.
-# (Implemented above as longest_word)
 
 #Write a function that returns a random password with at least one uppercase, one lowercase, one number, and one symbol.
 import string
